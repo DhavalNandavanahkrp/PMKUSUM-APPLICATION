@@ -1,0 +1,155 @@
+import { Platform, StyleSheet } from "react-native";
+import { Colors } from "../Styles/Colors";
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
+
+export const FONT_SIZE_18 = 18;
+
+export const Styles = StyleSheet.create({
+  flex1: { flex: 1 },
+  m1: { margin: "1%" },
+  m1h: { marginHorizontal: "1%" },
+  m2: { margin: "2%" },
+  m2h: { marginHorizontal: "2%" },
+  appbar: {
+    backgroundColor: Colors.primaryOrange,
+  },
+  icon: {
+    marginHorizontal: 5,
+    alignSelf: "center",
+    color: Colors.graytone,
+  },
+  appbarTitleStyle: {
+    color: Colors.white,
+    alignSelf: "flex-start",
+    marginLeft: 10,
+    alignSelf: "center",
+    fontSize: FONT_SIZE_18,
+    fontFamily: "roboto-regular",
+    flex: 1,
+  },
+  headerContainer: {
+    flexDirection: "row",
+    flex: 1,
+    marginHorizontal: 10,
+  },
+  // activity indicator style
+  loading: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    alignItems: "center",
+    justifyContent: "center",
+    opacity: 1,
+  },
+  sectionTitle: {
+    zIndex: 100,
+    backgroundColor: Colors.primaryOrange,
+    alignSelf: "flex-start",
+    marginLeft: 15,
+    paddingVertical: 2,
+    paddingHorizontal: 5,
+    color: Colors.white,
+    fontFamily: "roboto-regular",
+    flexDirection: "row",
+  },
+  sectionView: {
+    borderRadius: 7,
+    borderWidth: 1.5,
+    borderColor: Colors.grayAAA,
+  },
+  actionButton: {
+    borderColor: Colors.graytone,
+    borderWidth: 2,
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "center",
+    height: 50,
+    width: 50,
+    borderRadius: 25,
+  },
+  actionButtonSmall: {
+    backgroundColor: Colors.green,
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "flex-end",
+    height: 36,
+    width: 36,
+    borderRadius: 18,
+  },
+  cell: {
+    flex: 1,
+    flexDirection: "row",
+    padding: 5,
+  },
+  rightCell: {
+    flex: 1,
+    flexDirection: "row",
+    padding: 5,
+    borderLeftColor: Colors.grayAAA,
+    borderLeftWidth: 1,
+  },
+  captionText: {
+    textAlign: "center",
+    color: Colors.graytone,
+    alignSelf: "center",
+  },
+  backPanel: {
+    margin: "1%",
+    backgroundColor: "#ddd",
+    padding: 5,
+    borderRadius: 5,
+    paddingVertical: 10,
+  },
+  searchBy: {
+    alignSelf: "center",
+    fontWeight: "bold",
+    fontFamily: "roboto-regular",
+    marginRight: 5,
+    color: Colors.graytone,
+  },
+  cellTextRight: {
+    alignSelf: "center",
+    marginLeft: "auto",
+    marginRight: 5,
+  },
+  searchInput: {
+    borderBottomWidth: 2,
+    borderBottomColor: Colors.grayAAA,
+    height: 40,
+    paddingBottom: 0,
+    marginRight: 5,
+  },
+  pressable: { flex: 0.5, marginTop: 15 },
+  textInput: {
+    flex: 1,
+    borderBottomWidth: 2,
+    borderBottomColor: Colors.graytone,
+    paddingBottom: 5,
+    paddingLeft: 5,
+    fontFamily: "roboto-regular",
+  },
+  imageThumbnail: {
+    justifyContent: "center",
+    alignItems: "center",
+    height: 80,
+    width: 80,
+  },
+  saveButton: {
+    borderColor: Colors.graytone,
+    borderWidth: 2,
+    marginTop: 30,
+    marginHorizontal: "1%",
+  },
+  button: {
+    borderRadius: 10,
+    width: "47%",
+    margin: 5,
+  },
+  itemTitleView: {
+    flexDirection: "row",
+    flex: 1,
+    alignItems: "center",
+  },
+});

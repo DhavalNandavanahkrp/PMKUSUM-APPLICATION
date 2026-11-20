@@ -1,0 +1,88 @@
+{
+  "expo": {
+    "name": "PMKUSUM",
+    "slug": "pmkusumgiz",
+    "version": "1.23.0",
+    "orientation": "portrait",
+    "icon": "./assets/LOGO-02.png",
+    "splash": {
+      "image": "./assets/LOGO-02.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch",
+          "location",
+          "fetch"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyDNAauX8sjHNcb1Ed2pQW9-9PzGL75bdLE"
+      },
+      "bundleIdentifier": "com.kcikart.pmkusum"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LOGO-02.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./FCMconfig/google-services.json",
+      "package": "com.novatrice.pmkusum",
+      "allowBackup": false,
+      "versionCode": 26,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE",
+        "CAMERA"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDNAauX8sjHNcb1Ed2pQW9-9PzGL75bdLE"
+        }
+      },
+      "blockedPermissions": [
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO"
+      ]
+    },
+    "description": "",
+    "plugins": [
+      [
+        "./Plugins/withAndroidMainapplicationAttributes.js",
+        {
+          "android:usesCleartextTraffic": true
+        }
+      ],
+      "./Plugins/withSslCertificate.js",
+      "@react-native-community/datetimepicker",
+      "expo-font",
+      "expo-localization",
+      "expo-sqlite",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8053df13-dbb2-4578-ab0e-450b83a52345"
+      }
+    },
+    "owner": "helly-528"
+  }
+}

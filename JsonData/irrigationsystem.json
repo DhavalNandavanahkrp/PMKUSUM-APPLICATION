@@ -1,0 +1,22 @@
+[
+    {
+        "key": 1,
+        "value": "Surface/Flood",
+        "operatinghead": 3
+    },
+    {
+        "key": 2,
+        "value": "Drip or trickle",
+        "operatinghead": 14
+    },
+    {
+        "key": 3,
+        "value": "Micro-sprinklers",
+        "operatinghead": 12
+    },
+    {
+        "key": 4,
+        "value": "Sprinklers",
+        "operatinghead": 25
+    }
+]

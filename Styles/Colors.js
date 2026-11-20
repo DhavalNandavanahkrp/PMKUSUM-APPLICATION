@@ -1,0 +1,22 @@
+export const Colors = {
+  white: "#fff",
+  black: "#000",
+  primaryPurple: "#4B00D1",
+  // primaryOrange: "#F9AA33",
+  primaryOrange: "#f89f2e",
+  orange: "#F1A221",
+  green: "#5db85b",
+  lightGreen: "#90EE90",
+  red: "#FF2400",
+  cellBackground: "#BDBDBD",
+  grayAAA: "#aaa",
+  graytone: "#4A6572",
+  shadowBorder: "#00ABF0",
+  lightPink: "#FF54A7",
+  clockIcon: "#344955",
+  solarGeneration: "#FF6347",
+  waterDischarge: "#FF54A7",
+  runHours: "#00ABF0",
+  chartBackground: "#F2F2F2",
+  lightBorder: "#d9d9d9"
+};

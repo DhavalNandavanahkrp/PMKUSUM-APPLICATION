@@ -1,0 +1,40 @@
+# Dependencies
+
+node_modules
+
+# Expo
+
+.expo
+.expo-shared
+
+# Git
+
+.git
+
+# Android generated files
+
+android/.gradle
+android/build
+android/app/build
+
+# iOS generated files
+
+ios/build
+
+# Release artifacts
+
+release
+
+# Logs
+
+\*.log
+
+# IDE
+
+.vscode
+.idea
+
+# macOS / Windows
+
+.DS_Store
+Thumbs.db

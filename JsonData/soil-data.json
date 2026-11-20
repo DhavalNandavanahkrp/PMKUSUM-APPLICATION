@@ -1,0 +1,65 @@
+[
+    {
+      "Soil Type Number": 1,
+      "Texture": "Sand",
+      "FC v/v %": 100,
+      "WP v/v %": 30,
+      "Saturation v/v %": 395,
+      "Infiltration Rate, cm/h": 170,
+      "Percolation rate, CROPWAT": 5.51
+    },
+    {
+      "Soil Type Number": 2,
+      "Texture": "Loamy Sand",
+      "FC v/v %": 120,
+      "WP v/v %": 50,
+      "Saturation v/v %": 410,
+      "Infiltration Rate, cm/h": 90,
+      "Percolation rate, CROPWAT": 4.47
+    },
+    {
+      "Soil Type Number": 3,
+      "Texture": "Sandy Loam",
+      "FC v/v %": 180,
+      "WP v/v %": 90,
+      "Saturation v/v %": 435,
+      "Infiltration Rate, cm/h": 59,
+      "Percolation rate, CROPWAT": 3.89
+    },
+    {
+      "Soil Type Number": 4,
+      "Texture": "Loam",
+      "FC v/v %": 280,
+      "WP v/v %": 110,
+      "Saturation v/v %": 451,
+      "Infiltration Rate, cm/h": 7,
+      "Percolation rate, CROPWAT": 1.94
+    },
+    {
+      "Soil Type Number": 5,
+      "Texture": "Sandy Clay Loam",
+      "FC v/v %": 350,
+      "WP v/v %": 200,
+      "Saturation v/v %": 420,
+      "Infiltration Rate, cm/h": 20,
+      "Percolation rate, CROPWAT": 2.73
+    },
+    {
+      "Soil Type Number": 6,
+      "Texture": "Clay",
+      "FC v/v %": 410,
+      "WP v/v %": 250,
+      "Saturation v/v %": 482,
+      "Infiltration Rate, cm/h": 7,
+      "Percolation rate, CROPWAT": 1.94
+    },
+    {
+      "Soil Type Number": 0,
+      "Texture": "NODATA",
+      "FC v/v %": 0,
+      "WP v/v %": 0,
+      "Saturation v/v %": 0,
+      "Infiltration Rate, cm/h": 0,
+      "Percolation rate, CROPWAT": 0
+    }
+  ]

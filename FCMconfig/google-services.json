@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922374184383",
+    "project_id": "pmkusum-6e91a",
+    "storage_bucket": "pmkusum-6e91a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922374184383:android:d61083e225cb088165150a",
+        "android_client_info": {
+          "package_name": "com.novatrice.pmkusum"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALR5bN9nNnhYEvd4cuFRryJ1cBI2plKag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
